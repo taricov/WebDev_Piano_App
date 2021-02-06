@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="piano">
+        <div class="piano-body">
+            <div class="piano-speaker"></div>
+            <div class="piano-interface">
+                <div class="piano-controls">
+                    <h1 class="piano-heading">P I A N O</h1>
+                </div>
+                <div class="piano-songs">
+                    <select class="piano-song-list">
+                        <option value="1">Jingle Bells</option>
+                        <option value="2">Happy Birthday</option>
+                    </select>
+                </div>
+                <div class="piano-autoplay">
+                    <label>Tempo:
+                        <select class="piano-tempo">
+                            <option value="1">Fast</option>
+                            <option value="2" selected>Normal</option>
+                            <option value="3">Slow</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="piano-play">
+                    <button class="piano-play-btn">Play</button>
+                </div>  
+            </div>
+            <div class="piano-speaker"></div>
+        </div>
+        <div class="piano-keyboard"> </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
